@@ -10,3 +10,5 @@ for file in ~/.{path,bash_prompt,exports,extra}; do
 done;
 unset file;
 
+# assuming I have brew installed sl my gs turns into a train
+alias gs=sl
