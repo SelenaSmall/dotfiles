@@ -1,4 +1,5 @@
 
+PATH=~/.nodenv/shims:$PATH
 [[ -s "$HOME/.profile" ]] && source "$HOME/.profile" # Load the default .profile
 
 # Load the shell dotfiles, and then some:
