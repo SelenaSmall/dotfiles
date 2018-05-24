@@ -13,3 +13,6 @@ brew install base64
 # crap
 # steam train thing
 brew install sl
+
+# learn to type like a pro
+brew install gtyplist
