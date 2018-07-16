@@ -13,3 +13,6 @@ unset file;
 
 # assuming I have brew installed sl my gs turns into a train
 alias gs=sl
+
+# lolcommits are even better in a web page
+alias lols='ls -t ~/.lolcommits/**/*.gif | sed "s/^/<img src=\"/" | sed "s/$/\">/" > ~/temp_lolcommitters.html && open ~/temp_lolcommitters.html'
