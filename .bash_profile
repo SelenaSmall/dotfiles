@@ -1,6 +1,6 @@
 
-PATH=~/.nodenv/shims:$PATH
-[[ -s "$HOME/.profile" ]] && source "$HOME/.profile" # Load the default .profile
+# PATH=~/.nodenv/shims:$PATH
+# [[ -s "$HOME/.profile" ]] && source "$HOME/.profile" # Load the default .profile
 
 # Load the shell dotfiles, and then some:
 # * ~/.path can be used to extend `$PATH`.
@@ -16,3 +16,9 @@ alias gs=sl
 
 # lolcommits are even better in a web page
 alias lols='ls -t ~/.lolcommits/**/*.gif | sed "s/^/<img src=\"/" | sed "s/$/\">/" > ~/temp_lolcommitters.html && open ~/temp_lolcommitters.html'
+
+# Selena says load your common things from .bashrc, be more like Selena
+if [ -f ~/.bashrc ]; then
+  source ~/.bashrc
+fi
+
